@@ -1,9 +1,12 @@
+var Rule = require("Rule");
 cc.Class({
     extends: cc.Component,
 
     properties: {
         
         map:cc.Node,
+
+        boats:[cc.Node],
     },
 
     // use this for initialization
